@@ -87,9 +87,16 @@ public class PoolScheduler {
         return false;
     }
 
+    private static Instructor[] instructorOrder(SwimStyle style) {
+        if (style == SwimStyle.BREASTSTROKE || style == SwimStyle.BUTTERFLY) {
+            return new Instructor[]{Instructor.YONI, Instructor.JOHNNY, Instructor.YOTAM};
+        }
+        return new Instructor[]{Instructor.JOHNNY, Instructor.YOTAM, Instructor.YONI};
+    }
+
     private static void scheduleOnePrivate(Student s, ScheduleResult result) {
-        for (int day : WORK_DAYS) {
-            for (Instructor inst : Instructor.values()) {
+        for (Instructor inst : instructorOrder(s.getSwimStyle())) {
+            for (int day : WORK_DAYS) {
                 if (!inst.canTeach(s.getSwimStyle()) || !inst.isAvailable(day, inst.getStartHour())) continue;
                 int dayStartMin = inst.getStartHour() * 60;
                 int dayEndMin = inst.getEndHour() * 60;
@@ -113,8 +120,8 @@ public class PoolScheduler {
             List<Student> need = new ArrayList<>();
             for (Student s : forGroup) if (s.getSwimStyle() == style) need.add(s);
             if (need.isEmpty()) continue;
-            for (int day : WORK_DAYS) {
-                for (Instructor inst : Instructor.values()) {
+            for (Instructor inst : instructorOrder(style)) {
+                for (int day : WORK_DAYS) {
                     if (!inst.canTeach(style) || !inst.isAvailable(day, inst.getStartHour())) continue;
                     int dayStartMin = inst.getStartHour() * 60;
                     int dayEndMin = inst.getEndHour() * 60;
