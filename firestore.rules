@@ -1,0 +1,26 @@
+rules_version = '2';
+// Deploy from Firebase Console: Firestore Database → Rules, paste and Publish.
+// Or with Firebase CLI: firebase deploy --only firestore:rules (if firebase.json points to this file).
+//
+// These rules make the pool data shared for all authenticated users so every
+// trainer sees the same students and lesson requests.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Shared pool: all authenticated users can read and write.
+    // Paths used by the app: pool/default/students, pool/default/lesson_requests
+    match /pool/{poolId} {
+      match /{document=**} {
+        allow read, write: if request.auth != null;
+      }
+    }
+
+    // User profile (role): each user can read/write only their own.
+    match /users/{userId} {
+      match /{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}

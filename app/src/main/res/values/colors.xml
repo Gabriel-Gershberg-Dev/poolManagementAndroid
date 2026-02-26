@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Futuristic dark theme palette -->
+    <color name="md_theme_primary">#22D3EE</color>
+    <color name="md_theme_onPrimary">#0B1120</color>
+    <color name="md_theme_primaryContainer">#164E63</color>
+    <color name="md_theme_onPrimaryContainer">#CFFAFE</color>
+    <!-- Secondary (violet accent) -->
+    <color name="md_theme_secondary">#A78BFA</color>
+    <color name="md_theme_onSecondary">#0B1120</color>
+    <color name="md_theme_secondaryContainer">#312E81</color>
+    <color name="md_theme_onSecondaryContainer">#EDE9FE</color>
+    <!-- Tertiary -->
+    <color name="md_theme_tertiary">#34D399</color>
+    <color name="md_theme_onTertiary">#0B1120</color>
+    <!-- Surface / Background -->
+    <color name="md_theme_surface">#0F172A</color>
+    <color name="md_theme_onSurface">#F1F5F9</color>
+    <color name="md_theme_surfaceVariant">#1E293B</color>
+    <color name="md_theme_outline">#475569</color>
+    <color name="md_theme_outlineVariant">#334155</color>
+    <color name="surface_elevated">#253349</color>
+    <!-- Error -->
+    <color name="md_theme_error">#F87171</color>
+    <color name="md_theme_onError">#0B1120</color>
+    <!-- Instructor accents -->
+    <color name="instructor_yotam">#34D399</color>
+    <color name="instructor_yoni">#60A5FA</color>
+    <color name="instructor_johnny">#FB923C</color>
+    <color name="conflict">#F87171</color>
+    <!-- Gradients / backgrounds -->
+    <color name="gradient_start">#0B1120</color>
+    <color name="gradient_mid">#1E1B4B</color>
+    <color name="gradient_end">#0F172A</color>
+    <color name="card_overlay">#1E293B</color>
+    <color name="card_surface">#1E293B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="border_color">#334155</color>
+    <color name="glow_cyan">#4022D3EE</color>
+    <color name="glow_violet">#40A78BFA</color>
+    <color name="input_bg">#253349</color>
+    <color name="status_bar">#0B1120</color>
+    <color name="nav_bar">#0B1120</color>
+</resources>

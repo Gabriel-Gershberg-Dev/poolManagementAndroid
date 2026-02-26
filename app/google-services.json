@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984944371800",
+    "project_id": "swimingpoolmanagement",
+    "storage_bucket": "swimingpoolmanagement.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984944371800:android:e042eae1ff7850e455c22d",
+        "android_client_info": {
+          "package_name": "com.asgard.pool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984944371800-1u7bckn44t9jck8hcts92o0vnflu0asa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcO_kgWgf05FEmskO3GY0qYUY5AP_KBJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984944371800-1u7bckn44t9jck8hcts92o0vnflu0asa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

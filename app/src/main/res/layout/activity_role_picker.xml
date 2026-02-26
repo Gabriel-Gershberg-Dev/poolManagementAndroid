@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_screen">
+
+    <View
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/bg_glow_circle_cyan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_lg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_role"
+            android:textSize="28sp"
+            android:textColor="@color/md_theme_onSurface"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select how you want to use the app"
+            android:textSize="14sp"
+            android:textColor="@color/text_muted"
+            android:paddingBottom="@dimen/spacing_xl" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStudent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/role_student"
+            android:textSize="16sp"
+            android:textColor="@color/md_theme_onPrimary"
+            app:backgroundTint="@color/md_theme_primary"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnManager"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/role_manager"
+            android:textSize="16sp"
+            android:textColor="@color/md_theme_onSurface"
+            app:strokeColor="@color/border_color"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asgard Pool Manager</string>
+    <string name="add_student">Add Student</string>
+    <string name="show_schedule">Show Schedule</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="swim_style">Swim style</string>
+    <string name="lesson_type">Lesson type</string>
+    <string name="private_only">Private only</string>
+    <string name="group_only">Group only</string>
+    <string name="private_or_group">Private or group by preference</string>
+    <string name="crawl">Crawl</string>
+    <string name="breaststroke">Breaststroke</string>
+    <string name="butterfly">Butterfly</string>
+    <string name="backstroke">Backstroke</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="conflicts">Conflicts / Gaps</string>
+    <string name="close">Close</string>
+    <string name="weekly_schedule">Weekly Schedule</string>
+    <string name="students_count">Students: %1$d / 30</string>
+    <string name="students_count_default">Students: 0 / 30</string>
+    <string name="max_students_toast">Maximum 30 students</string>
+    <string name="add_student_dialog_title">Add new student</string>
+    <string name="enter_name_toast">Please enter first and last name</string>
+    <string name="student_added_toast">Student added</string>
+    <string name="no_lessons_scheduled">No lessons scheduled</string>
+    <string name="group_lesson">(Group)</string>
+    <string name="private_lesson">(Private)</string>
+    <string name="minutes_short">min</string>
+    <string name="conflicts_header">Conflicts:</string>
+    <string name="gaps_header">Gaps:</string>
+    <string name="no_conflicts_or_gaps">No conflicts or gaps.</string>
+    <string name="delete">Delete</string>
+    <string name="history">History</string>
+    <string name="save_to_history">Save to history</string>
+    <string name="saved_to_history">Schedule saved to history</string>
+    <string name="history_empty">No saved schedules</string>
+    <string name="history_summary">%1$d lessons · %2$s</string>
+    <string name="clear_history">Clear history</string>
+    <string name="conflicts_alert_title">Schedule has issues</string>
+    <string name="conflicts_alert_message">There are conflicts or unscheduled students. Edit your student list to fix them, or view the schedule anyway.</string>
+    <string name="edit_students">Edit students</string>
+    <string name="view_anyway">View anyway</string>
+    <string name="save_blocked_by_conflicts">Resolve conflicts or gaps before saving to history.</string>
+    <string name="dashboard_overview">Overview</string>
+    <string name="capacity_title">Capacity</string>
+    <string name="capacity_value">%1$d / 30 students</string>
+    <string name="capacity_slots_left">%1$d slots left</string>
+    <string name="trainers_load">Lessons per trainer</string>
+    <string name="trainer_count">%1$s: %2$d lessons</string>
+    <string name="manage_students">Manage students</string>
+    <string name="lesson_removed">Lesson removed</string>
+    <string name="view_list">List</string>
+    <string name="view_calendar">Calendar</string>
+    <string name="lesson_details">Lesson details</string>
+    <string name="account">Account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_out">Sign out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="signed_in_anonymously">Using app (guest)</string>
+    <string name="auth_error">Authentication error</string>
+    <string name="auth_email_required">Enter email</string>
+    <string name="auth_password_required">Enter password (min 6 characters)</string>
+    <string name="auth_success">Signed in</string>
+    <string name="auth_internal_error_hint">Sign up failed. Add your app\'s SHA-1 in Firebase Console: Project settings → Your Android app → Add fingerprint. Run: gradlew signingReport</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="auth_subtitle">Manage your pool schedule</string>
+    <string name="passwords_mismatch">Passwords do not match</string>
+    <string name="sync_failed">Sync failed. Check connection.</string>
+    <string name="choose_role">Choose your role</string>
+    <string name="role_student">Student</string>
+    <string name="role_manager">Manager / Trainer</string>
+    <string name="my_lessons">My lessons</string>
+    <string name="request_lesson">Request a lesson</string>
+    <string name="request_sent">Request sent</string>
+    <string name="declined_requests">Declined requests</string>
+    <string name="no_my_lessons">No lessons scheduled for you</string>
+    <string name="pending_requests">Pending requests</string>
+    <string name="assign">Assign</string>
+    <string name="decline">Decline</string>
+    <string name="decline_reason">Decline reason (optional)</string>
+    <string name="request_assigned">Request assigned</string>
+    <string name="request_declined">Request declined</string>
+    <string name="no_pending_requests">No pending requests</string>
+    <string name="status_pending">Pending</string>
+    <string name="no_pending_student">No pending requests</string>
+    <string name="load_pool_failed">Could not load pool from Firestore. Turn on Firestore and set Rules – see SETUP_FIRESTORE.md in the project.</string>
+    <string name="load_pool_permission_denied">Firestore permission denied. Fix: Firebase Console → Firestore → Rules → paste rules from SETUP_FIRESTORE.md → Publish.</string>
+    <string name="load_pool_permission_denied_dialog_title">Fix Firestore permission</string>
+    <string name="load_pool_permission_denied_dialog_message">1. Open Firebase Console in a browser\n2. Select your project\n3. Build → Firestore Database → Rules tab\n4. Replace all rules with the rules in SETUP_FIRESTORE.md (in the project folder)\n5. Click Publish\n\nThen reopen the app.</string>
+    <string-array name="weekday_names">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+</resources>

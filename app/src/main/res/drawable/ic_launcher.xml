@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#0B1120"
+        android:pathData="M0,0h108v108H0z" />
+
+    <!-- Calendar body -->
+    <path
+        android:fillColor="#131B2E"
+        android:pathData="M16,32 L92,32 a4,4 0 0,1 4,4 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 L12,36 a4,4 0 0,1 4,-4 Z" />
+
+    <!-- Header bar - deep -->
+    <path
+        android:fillColor="#6D28D9"
+        android:pathData="M16,22 a4,4 0 0,1 4,-4 L88,18 a4,4 0 0,1 4,4 L92,40 L16,40 Z" />
+
+    <!-- Header bar - bright -->
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M16,22 a4,4 0 0,1 4,-4 L88,18 a4,4 0 0,1 4,4 L92,34 L16,34 Z" />
+
+    <!-- Header highlight -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M16,22 a4,4 0 0,1 4,-4 L88,18 a4,4 0 0,1 4,4 L92,26 L16,26 Z" />
+
+    <!-- Ring left - outer -->
+    <path
+        android:fillColor="#4C1D95"
+        android:pathData="M34,10 a3,3 0 0,1 3,-3 L39,7 a3,3 0 0,1 3,3 L42,30 a3,3 0 0,1 -3,3 L37,33 a3,3 0 0,1 -3,-3 Z" />
+
+    <!-- Ring left - highlight -->
+    <path
+        android:fillColor="#7C3AED"
+        android:pathData="M35.5,11 a2,2 0 0,1 2,-2 L38.5,9 a2,2 0 0,1 2,2 L40.5,29 a2,2 0 0,1 -2,2 L37.5,31 a2,2 0 0,1 -2,-2 Z" />
+
+    <!-- Ring right - outer -->
+    <path
+        android:fillColor="#4C1D95"
+        android:pathData="M66,10 a3,3 0 0,1 3,-3 L71,7 a3,3 0 0,1 3,3 L74,30 a3,3 0 0,1 -3,3 L69,33 a3,3 0 0,1 -3,-3 Z" />
+
+    <!-- Ring right - highlight -->
+    <path
+        android:fillColor="#7C3AED"
+        android:pathData="M67.5,11 a2,2 0 0,1 2,-2 L70.5,9 a2,2 0 0,1 2,2 L72.5,29 a2,2 0 0,1 -2,2 L69.5,31 a2,2 0 0,1 -2,-2 Z" />
+
+    <!-- Grid - horizontal -->
+    <path
+        android:fillColor="#253349"
+        android:pathData="M12,57 L96,57 L96,58 L12,58 Z" />
+    <path
+        android:fillColor="#253349"
+        android:pathData="M12,74 L96,74 L96,75 L12,75 Z" />
+
+    <!-- Grid - vertical -->
+    <path
+        android:fillColor="#253349"
+        android:pathData="M39,40 L40,40 L40,92 L39,92 Z" />
+    <path
+        android:fillColor="#253349"
+        android:pathData="M67,40 L68,40 L68,92 L67,92 Z" />
+
+    <!-- Calendar event dots -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M22,46 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z" />
+    <path
+        android:fillColor="#C4B5FD"
+        android:pathData="M22,52 L32,52 L32,53.5 L22,53.5 Z" />
+
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M50,46 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 Z" />
+    <path
+        android:fillColor="#67E8F9"
+        android:pathData="M49,52 L60,52 L60,53.5 L49,53.5 Z" />
+
+    <!-- Pool water - deepest -->
+    <path
+        android:fillColor="#134E4A"
+        android:pathData="M12,62 C28,52 44,70 62,56 C78,44 92,58 96,54 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - deep -->
+    <path
+        android:fillColor="#0E7490"
+        android:pathData="M12,68 C26,58 42,74 60,62 C76,50 90,64 96,60 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - mid -->
+    <path
+        android:fillColor="#0891B2"
+        android:pathData="M12,72 C24,64 40,78 58,66 C74,56 88,68 96,64 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - bright -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M12,76 C22,68 38,82 56,70 C72,60 86,72 96,68 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - crest -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M12,80 C20,74 36,86 54,76 C70,66 84,76 96,72 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - highlight -->
+    <path
+        android:fillColor="#67E8F9"
+        android:pathData="M12,84 C20,78 34,88 52,80 C68,72 82,80 96,76 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Pool water - foam -->
+    <path
+        android:fillColor="#A5F3FC"
+        android:pathData="M12,88 C18,84 32,90 50,86 C66,82 80,86 96,82 L96,88 a4,4 0 0,1 -4,4 L16,92 a4,4 0 0,1 -4,-4 Z" />
+
+    <!-- Water sparkles -->
+    <path
+        android:fillColor="#ECFEFF"
+        android:pathData="M30,72 a1.2,1.2 0 1,0 2.4,0 a1.2,1.2 0 1,0 -2.4,0 Z" />
+    <path
+        android:fillColor="#ECFEFF"
+        android:pathData="M70,66 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 Z" />
+    <path
+        android:fillColor="#ECFEFF"
+        android:pathData="M50,70 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0 Z" />
+    <path
+        android:fillColor="#ECFEFF"
+        android:pathData="M84,70 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0 Z" />
+
+</vector>
