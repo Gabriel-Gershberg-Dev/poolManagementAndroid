@@ -94,6 +94,7 @@
     <string name="load_pool_permission_denied_dialog_title">Fix Firestore permission</string>
     <string name="load_pool_permission_denied_dialog_message">1. Open Firebase Console in a browser\n2. Select your project\n3. Build → Firestore Database → Rules tab\n4. Replace all rules with the rules in SETUP_FIRESTORE.md (in the project folder)\n5. Click Publish\n\nThen reopen the app.</string>
     <string-array name="weekday_names">
+        <item>Sunday</item>
         <item>Monday</item>
         <item>Tuesday</item>
         <item>Wednesday</item>

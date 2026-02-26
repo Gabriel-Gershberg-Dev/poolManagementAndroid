@@ -32,7 +32,7 @@ public class ScheduleActivity extends AppCompatActivity {
     public static final String EXTRA_HISTORY_ENTRY_JSON = "history_entry_json";
 
     private static final int[] WORK_DAYS = {
-            Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY, Calendar.FRIDAY
+            Calendar.SUNDAY, Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY, Calendar.FRIDAY
     };
 
     private PoolScheduler.ScheduleResult scheduleResult;
@@ -276,7 +276,7 @@ public class ScheduleActivity extends AppCompatActivity {
 
     private String getDayName(int dayOfWeek) {
         String[] names = getResources().getStringArray(R.array.weekday_names);
-        int index = dayOfWeek - Calendar.MONDAY;
+        int index = dayOfWeek - Calendar.SUNDAY;
         if (index >= 0 && index < names.length) return names[index];
         return "";
     }
